@@ -10,7 +10,7 @@ url = "https://www.divan.ru/ekaterinburg/category/divany"
 driver.get(url)
 time.sleep(3)
 
-prices = driver.find_elements(By.CLASS_NAME, "ui-LD-ZU KIkOH")
+prices = driver.find_elements(By.CLASS_NAME, "ui-LD-ZU.KIkOH")
 
 
 # Открытие CSV файла для записи

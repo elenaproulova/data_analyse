@@ -16,7 +16,7 @@ mean_value = np.mean(prices)
 print(f"Среднее значение: {mean_value}")
 
 # Построение гистограммы
-plt.hist(prices, bins=10, edgecolor='black')
+plt.hist(prices, bins=8, edgecolor='black')
 plt.title('Гистограмма цен на диваны')
 plt.xlabel('Значения')
 plt.ylabel('Частота')
